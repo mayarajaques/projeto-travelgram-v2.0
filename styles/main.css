@@ -2,7 +2,7 @@ main {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 48px;
+  margin-top: 3rem;
   padding-inline: var(--padding-main);
 
 
@@ -11,34 +11,34 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap; 
-    gap: 16px;
+    gap: 1rem;
   }
 
   img {
-    max-width: 328px;
-    max-height: 328px;
+    max-width: 20.5rem;
+    max-height: 20.5rem;
     object-fit: cover;
   }
   
 }
 
 /* DESKTOP */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 80rem) {
 
   :root { 
-    --padding-main-footer: 32px;
+    --padding-main-footer: 2rem;
 
   }
 
   main {
     & .container {
-      max-width: 1216px;
-      gap: 24px;
+      max-width: 76rem;
+      gap: 1.5rem;
     }
 
     & img {
-      width: 286px;
-      height: 286px;
+      width: 17.875rem;
+      height: 17.875rem;
 
     }
   }

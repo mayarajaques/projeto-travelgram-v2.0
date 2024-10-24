@@ -23,8 +23,8 @@
 
 
   /*padrao padding main mobile*/
-  --padding-main-footer: 16px;
-  --padding-header: 32px;
+  --padding-main-footer: 1rem;
+  --padding-header: 2rem;
 
 
 }
@@ -50,7 +50,7 @@ nav, header{
 
 
 /*DESKTOP */
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 80rem) {
 
   :root {
 
@@ -59,7 +59,7 @@ nav, header{
   }
 
   body{
-    max-width: 1280px;
+    max-width: 80rem;
     margin: 0 auto;
   }
 
@@ -67,7 +67,7 @@ nav, header{
   h1 {
     font: var(--text-lg);
     color: var(--text-color-primary);
-    margin-top: 52px ;
+    margin-top: 3.25rem;
   }
 
 
