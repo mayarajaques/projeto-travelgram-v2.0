@@ -1,4 +1,4 @@
-<h1 align="center"> Travelgram V2.0</h1>
+<h1 align="center"> Travelgram v2.0</h1>
 
 <p align="center">
   Projeto desenvolvido com os conhecimentos adiquiridos no módulo de responsividade do curso da Rocketseat. <br>
