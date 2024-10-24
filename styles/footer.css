@@ -1,0 +1,41 @@
+footer {
+  padding: var(--padding-main-footer);
+  flex-wrap: wrap;
+
+  .footer-content {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .footer-terms {
+    gap: 16px;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 1280px) {
+
+  footer {
+    --padding-main-footer: 24px 32px;
+    /* border: 1px solid red; */
+
+
+
+    .flex {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: start;
+      border: 1px solid blue;
+
+
+    }
+  }
+
+
+
+}

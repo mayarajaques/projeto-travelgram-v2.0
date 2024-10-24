@@ -1,0 +1,14 @@
+/*esconde os elementos no mobile */
+.desktop-only {
+  display: none;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+

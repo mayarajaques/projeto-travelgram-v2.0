@@ -1,0 +1,47 @@
+main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 48px;
+  padding-inline: var(--padding-main);
+
+
+
+  & .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 16px;
+  }
+
+  img {
+    max-width: 328px;
+    max-height: 328px;
+    object-fit: cover;
+  }
+  
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1200px) {
+
+  :root { 
+    --padding-main-footer: 32px;
+
+  }
+
+  main {
+    & .container {
+      max-width: 1216px;
+      gap: 24px;
+    }
+
+    & img {
+      width: 286px;
+      height: 286px;
+
+    }
+  }
+
+
+}

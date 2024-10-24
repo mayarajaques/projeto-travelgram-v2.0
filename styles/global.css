@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family-poppins: "Poppins", sans-serif;
+
+  /*fonte mobile*/
+  --text-lg: bold 1.5rem/125% var(--font-family-poppins);
+  --text-md: 0.875rem/170% var(--font-family-poppins);
+  --text-sm: 0.75rem/170% var(--font-family-poppins);
+
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+
+
+  --background-color: #FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: #FFFFFF;
+
+
+  /*padrao padding main mobile*/
+  --padding-main-footer: 16px;
+  --padding-header: 32px;
+
+
+
+
+}
+
+body {
+
+  font: var(--text-md);
+  color: var(--text-color-secondary);
+  font-weight: 400;
+  background-color: var(--surface-color);
+  width: 100%;
+ 
+
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/*DESKTOP */
+@media only screen and (min-width: 1280px) {
+
+  :root {
+
+    --text-lg: bold 2rem/125% var(--font-family-poppins);
+
+  }
+
+  body{
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+
+  h1 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+    margin-top: 52px ;
+  }
+
+
+}

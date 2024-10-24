@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* Isso separa o logo e os itens à direita */
+  align-items: center;
+  padding: var(--padding-main-footer);
+
+}
+
+#logo {
+  width: 122px;
+  height: 32px;
+}
+
+ul {
+  display: flex;
+  gap: 16px;
+  /* Espaçamento entre lupa e imagem de perfil */
+  align-items: center;
+  list-style: none;
+}
+
+ul li img {
+  width: 24px;
+  height: 24px;
+}
+
+#profile {
+  width: 48px;
+  height: 48px;
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 1200px) {
+nav{
+  --padding-main-footer: 20px 32px;
+
+}
+
+  nav .desktop-only {
+    display: initial;
+  }
+}
