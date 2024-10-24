@@ -33,11 +33,9 @@ body {
 
   font: var(--text-md);
   color: var(--text-color-secondary);
-  font-weight: 400;
-  background-color: var(--surface-color);
-  width: 100%;
- 
 
+  font-weight: 400;
+  width: 100%;
 
 }
 
@@ -46,6 +44,9 @@ a {
   color: inherit;
 }
 
+nav, header{
+  background-color: var(--surface-color);
+}
 
 
 /*DESKTOP */
