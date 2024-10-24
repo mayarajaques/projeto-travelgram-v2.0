@@ -22,15 +22,13 @@ footer {
 
   footer {
     --padding-main-footer: 24px 32px;
-    /* border: 1px solid red; */
-
 
 
     .flex {
       flex-direction: row;
       justify-content: space-between;
       align-items: start;
-      border: 1px solid blue;
+
 
 
     }
