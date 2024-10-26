@@ -1,7 +1,7 @@
 <h1 align="center"> Travelgram v2.0</h1>
 
 <p align="center">
-  Projeto desenvolvido com os conhecimentos adiquiridos no módulo de responsividade do curso da Rocketseat. <br>
+  Projeto desenvolvido com os conhecimentos adquiridos no módulo de responsividade do curso da Rocketseat. <br>
   <strong>Neste projeto adaptei a página utilizando Media Queries para desktop e mobile</strong>
 </p>
 
